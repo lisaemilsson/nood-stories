@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -29,17 +29,21 @@ const Footer = () => {
     return (
         <StyledFooter>
 
-            <a href="https://www.linkedin.com/feed/" target= "_blank">
-            <FontAwesomeIcon icon={faLinkedin} color="Blue"/>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <FontAwesomeIcon icon={faLinkedin} color="Blue"/>
             </a>
-           
 
+            <a href="https://github.com/lisaemilsson" target="_blank">
+                <FontAwesomeIcon icon={faGithub} color="Magenta" />
+            </a>
 
-           <FontAwesomeIcon icon={faGithub} color="Magenta" />
+           <a href="https://www.facebook.com/" target="_blank">
             <FontAwesomeIcon icon={faFacebook} color="Yellow" size="20px"/>
-            <FontAwesomeIcon icon={faInstagram} color="Green"/>
+           </a>
+
             <FontAwesomeIcon icon={faPhone} color="Red"/>
             <FontAwesomeIcon icon={faEnvelope} color="Purple"/>
+            
         </StyledFooter>
     )
 }

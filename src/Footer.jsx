@@ -30,19 +30,19 @@ const Footer = () => {
         <StyledFooter>
 
             <a href="https://www.linkedin.com/feed/" target="_blank">
-                <FontAwesomeIcon icon={faLinkedin} color="Blue"/>
+                <FontAwesomeIcon icon={faLinkedin} color="white"/>
             </a>
 
             <a href="https://github.com/lisaemilsson" target="_blank">
-                <FontAwesomeIcon icon={faGithub} color="Magenta" />
+                <FontAwesomeIcon icon={faGithub} color="white" />
             </a>
 
            <a href="https://www.facebook.com/" target="_blank">
-            <FontAwesomeIcon icon={faFacebook} color="Yellow" size="20px"/>
+            <FontAwesomeIcon icon={faFacebook} color="white" size="20px"/>
            </a>
 
-            <FontAwesomeIcon icon={faPhone} color="Red"/>
-            <FontAwesomeIcon icon={faEnvelope} color="Purple"/>
+            <FontAwesomeIcon icon={faPhone} color="white"/>
+            <FontAwesomeIcon icon={faEnvelope} color="white"/>
             
         </StyledFooter>
     )
